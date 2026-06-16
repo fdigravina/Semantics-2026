@@ -1,0 +1,45 @@
+Numero Totale di Claim Analizzati: 9041
+
+----------------------------------------
+1. DISTRIBUZIONE GENERALE DELLE LABEL (True / False)
+----------------------------------------
+  - True: 4398 (48.65%)
+  - False: 4643 (51.35%)
+
+----------------------------------------
+2. METADATI ADDIZIONALI (Stile & Sostituzione)
+----------------------------------------
+  - Claim generati con Sostituzione ('substitution'): 3702 (40.95%)
+  - Stili di Scrittura (Claim Style):
+    * coll:model: 4635 (51.27%)
+    * written: 3451 (38.17%)
+    * coll:presup: 955 (10.56%)
+
+----------------------------------------
+3. ANALISI DETTAGLIATA PER REASONING TYPE
+----------------------------------------
+
+● TIPO: One-hop (num1)
+  Conteggio Totale: 2376 (26.28%)
+  ↳ True:  1254 (52.78%)
+  ↳ False: 1122 (47.22%)
+
+● TIPO: Conjunction (multi claim)
+  Conteggio Totale: 3293 (36.42%)
+  ↳ True:  1392 (42.27%)
+  ↳ False: 1901 (57.73%)
+
+● TIPO: Existence (existence)
+  Conteggio Totale: 1299 (14.37%)
+  ↳ True:  637 (49.04%)
+  ↳ False: 662 (50.96%)
+
+● TIPO: Multi-hop (multi hop)
+  Conteggio Totale: 2073 (22.93%)
+  ↳ True:  1115 (53.79%)
+  ↳ False: 958 (46.21%)
+
+● TIPO: Negation (negation)
+  Conteggio Totale: 1314 (14.53%)
+  ↳ True:  603 (45.89%)
+  ↳ False: 711 (54.11%)
